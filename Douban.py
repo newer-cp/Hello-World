@@ -41,4 +41,4 @@ for n in range(0, 10):
 
     df = pd.DataFrame(name_list, columns=['电影名称', '评分 ', '信息'], index=None)
     df.to_csv("douban.csv",encoding='utf-8_sig')
-
+# 保存爬取文件
